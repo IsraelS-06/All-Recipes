@@ -1,0 +1,83 @@
+.recipe-card {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background-image: url("https://www.allrecipes.com/thmb/ReuE150rok9PGI13QGHMiKBAqRk=/2000x666/filters:no_upscale():max_bytes(150000):strip_icc():focal(1670x661:1672x663):format(webp)/103001129_221089_Grilled-Five-Spice-Chicken-3x1-e7261b73f6784529ae1052b7b46ad78e.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.recipe-card2 {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background-image: url("https://www.allrecipes.com/thmb/lhYk3QRcKsfGOtH7r9gOg76MhhQ=/2000x666/filters:no_upscale():max_bytes(150000):strip_icc():focal(1778x562:1780x564):format(webp)/ar-golden-cart-awards-2025-hero-10448-3x1-56a92dd5c0074d81b07c97fa20b581de.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.recipe-card::before, .recipe-card2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  z-index: 1;
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  margin: 40px;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+}
+
+.category {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+.title:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff6b35;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+  font-weight: bold;
+}

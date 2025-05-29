@@ -1,0 +1,133 @@
+.salad-header {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.salad-header:has(.salad-link):hover {
+  text-decoration: orangered underline;
+}
+.salad-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 1000;
+}
+.salad-link:not(.salad-small):hover {
+  text-decoration: none;
+}
+.salad-bold:hover {
+  text-decoration: underline orangered;
+}
+.salad-link:hover {
+  text-decoration: orangered underline;
+}
+i[class~="fa-arrow-right"] {
+  color: orangered;
+  padding-left: 15px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  column-gap: 30px;
+  row-gap: 100px;
+}
+.grid2-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.salad-small {
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+.salad-bold {
+  padding-bottom: 1px;
+}
+span.salad-bold {
+  display: block;
+}
+.salad-light {
+  color: orangered;
+  opacity: 0.8;
+}
+.span {
+  color: gray;
+  opacity: 0.5;
+}
+i[class~="image-heart"] {
+  color: white;
+  font-size: 32px;
+  position: relative;
+  bottom: 190px;
+  left: -45px;
+}
+i[class~="image-heart"]:hover {
+  color: deeppink;
+}
+.search2 {
+  width: 600px;
+  border-radius: 0px;
+}
+#span-like {
+  background: coral;
+  font-size: 28px;
+}
+.left-like {
+  position: relative;
+  top: -25px;
+}
+#span-h {
+  margin-bottom: 20px;
+}
+#span-h3 {
+  position: relative;
+  top: -10px;
+}
+#like {
+  display: flex;
+  justify-content: center;
+}
+#like-container {
+  display: flex;
+  height: 200px;
+  width: auto;
+  padding-left: 30px;
+  align-items: center;
+  margin-bottom: 60px;
+  justify-content: center;
+  border: 2px solid black;
+  gap: 30px;
+}
+#like-flex {
+  display: grid;
+  gap: 20px;
+  padding-right: 40px;
+  grid-template-columns: repeat(5, 1fr);
+}
+.like-list {
+  background: orangered;
+  text-align: center;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+  width: auto;
+}
+.like-list:hover {
+  filter: brightness(60%);
+}
+#first-advert {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  background: white;
+}
+.ad1 {
+  display: block;
+  margin: 60px auto;
+}

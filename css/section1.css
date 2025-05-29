@@ -1,0 +1,163 @@
+main {
+  margin-top: 100px;
+}
+#section1 {
+  background: #114388;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  gap: 100px;
+  margin-bottom: 30px;
+}
+.white-underline {
+  color: white;
+  text-decoration: none;
+}
+.white-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+#yellow {
+  color: #fbd657;
+  font-weight: 700;
+}
+.bold-price {
+  font-weight: 1000;
+  font-size: 1.2em;
+  padding-right: 2px;
+}
+.price-inline {
+  font-size: 1em;
+}
+#section1 .white-underline:nth-child(2)::before {
+  content: "🔴";
+  font-size: 12px;
+  position: relative;
+  right: 5px;
+  top: -4px;
+}
+#section1 .white-underline:nth-child(3)::before {
+  content: "🟠";
+  font-size: 12px;
+  position: relative;
+  right: 5px;
+  top: -4px;
+}
+#section1 .white-underline:nth-child(4)::before {
+  content: "🟡";
+  font-size: 12px;
+  position: relative;
+  right: 5px;
+  top: -4px;
+}
+#image-section {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.no-decoration {
+  text-decoration: none;
+  color: black;
+}
+.no-decoration #bold:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+.block {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+}
+#caption {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: gray;
+}
+#para {
+  padding-top: 20px;
+  display: block;
+}
+#kitchen-bold-text {
+  font-weight: 800;
+}
+#kitchen-small-text {
+  font-weight: 200;
+}
+#division {
+  border-top: 5px solid var(--primary-color);
+  margin-bottom: 30px;
+  width: 100%;
+}
+hr {
+  background: gray;
+  height: 2px;
+}
+.inline {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.image {
+  width: 159px;
+  height: 106px;
+}
+#bold {
+  font-size: 27px;
+}
+.small {
+  font-weight: 100;
+  position: relative;
+  bottom: 16px;
+  font-size: 13px;
+}
+.small2 {
+  font-weight: 100;
+  position: relative;
+  font-size: 13px;
+}
+.bold2 {
+  font-size: 18px;
+  display: block;
+  position: relative;
+  top: 10px;
+  font-weight: 1000;
+}
+.bold {
+  font-size: 16px;
+  display: block;
+  position: relative;
+  bottom: 10px;
+  font-weight: 1000;
+}
+.underline {
+  text-decoration: none;
+  color: black;
+}
+.underline:hover {
+  text-decoration: var(--primary-color) underline;
+}
+#more-btn {
+  padding: 15px 10px 10px 15px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  outline: 1px solid orangered;
+}
+#center {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+#more-btn:hover {
+  background: orangered;
+}
+#left {
+  margin-top: -78px;
+}

@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A simple recipe page" />
+    <meta name="keywords" content="recipe, food, cooking" />
+    <meta name="author" content="Joseph" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/section1.css" />
+    <link rel="stylesheet" href="css/section2.css" />
+    <link rel="stylesheet" href="css/section3.css" />
+    <link rel="stylesheet" href="css/section4.css" />
+    <link rel="stylesheet" href="css/recipe-card.css" />
+    <link rel="stylesheet" href="css/recipe-list.css" />
+    <link rel="stylesheet" href="css/May-Days.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Allrecipes | Recipes, How-Tos, Videos and More</title>
+    <link rel="shortcut icon" href="images/Favicon" type="image/x-icon" />
+    <link rel="icon" href="images/Favicon/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div id="navbar1">
+            <h1>allrecipes<i class="fa fa-spoon"></i></h1>
+            <label for="search1"
+              ><input
+                id="search1"
+                placeholder="Find a recipe or ingredient"
+                type="search" /><i class="fa fa-search"></i
+            ></label>
+            <a href="#" class="login"
+              ><i class="fa fa-user-circle"></i>Log In</a
+            >
+            <div class="divider"></div>
+            <select id="dropdown">
+              <option id="mag" value="magazine">Magazine</option>
+              <option id="mag1" value="magazine">Subscribe</option>
+              <option id="mag2" value="magazine">
+                Manage Your Subscription
+              </option>
+              <option id="mag3" value="magazine">
+                Give a Gift Subscription
+              </option>
+              <option id="mag4" value="magazine">Get Help</option>
+            </select>
+            <div class="divider"></div>
+            <a href="#" class="login">Newsletters</a>
+            <div class="divider"></div>
+            <a href="#" class="login">Sweepstakes</a>
+            <div class="divider"></div>
+            <a href="#" class="login"
+              ><i class="fa fa-heart"></i><span id="my">my</span
+              ><span id="recipes">recipes</span></a
+            >
+          </div>
+          <div id="navbar2">
+            <div class="categories">
+              <div class="cat-wrapper">
+                <div class="dropdown">
+                  <a href="#" class="head">DINNERS</a>
+                  <div class="dropdown-content">
+                    <a href="#">Quick Dinners</a>
+                    <a href="#">Healthy Dinners</a>
+                    <a href="#">Family Dinners</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="head">MEALS</a>
+                  <div class="dropdown-content">
+                    <a href="#"></a>
+                    <a href="#">Lunch</a>
+                    <a href="#">Snacks</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="head">INGREDIENTS</a>
+                  <div class="dropdown-content">
+                    <a href="#">Chicken</a>
+                    <a href="#">Beef</a>
+                    <a href="#">Pasta</a>
+                    <a href="#">Seafood</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="head">OCCASIONS</a>
+                  <div class="dropdown-content">
+                    <a href="#">Memorial Day Recipes</a>
+                    <a href="#">Father's Day Recipes</a>
+                    <a href="#">Juneteenth</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="head">CUISINES</a>
+                  <div class="dropdown-content">
+                    <a href="#">Mexican</a>
+                    <a href="#">Italian</a>
+                    <a href="#">Chinese</a>
+                    <a href="#">Indian</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="head">KITCHEN</a>
+                  <div class="dropdown-content">
+                    <a href="#">instant Pot</a>
+                    <a href="#">Air Fryer</a>
+                    <a href="#">Slow Cooker</a>
+                    <a href="#">Our Favourite Products</a>
+                    <a href="#">BBQ and Grilling</a>
+                    <a href="#">Cooking by Equipment</a>
+                    <a href="#">Ingredient Substitutions</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="head">NEWS</a>
+                  <div class="dropdown-content">
+                    <a href="#">Celebrity and Entertainment</a>
+                    <a href="#">Fast Food</a>
+                    <a href="#">Grocery</a>
+                    <a href="#">Recalls</a>
+                    <a href="#">Trends</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="head">FEATURES</a>
+                  <div class="dropdown-content">
+                    <a href="#">Dinner Fix</a>
+                    <a href="#">Sweet Spot</a>
+                    <a href="#">In the Kitchen</a>
+                    <a href="#">Pasta</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="head">ABOUT</a>
+                  <div class="dropdown-content">
+                    <a href="#">About Allrecipes</a>
+                    <a href="#">Allstars</a>
+                    <a href="#">How to Add a Recipe</a>
+                    <a href="#">View All</a>
+                  </div>
+                </div>
+
+                <div id="link2">
+                  <a href="#" id="list2" class="lists">get the magazine</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="first-section">
+        <div id="section1">
+          <a href="#" class="white-underline"
+            >America's
+            <span id="yellow"> #1 Trusted Recipe Resource</span> since 1997</a
+          >
+          <a href="#" class="white-underline"
+            ><span class="bold-price">51K</span
+            ><span class="price-inline">Original Recipes</span></a
+          >
+          <a href="#" class="white-underline"
+            ><span class="bold-price">7M+</span
+            ><span class="price-inline">Ratings & Reviews</span></a
+          >
+          <a href="#" class="white-underline"
+            ><span class="bold-price">67M</span
+            ><span class="price-inline">Home Cooks</span></a
+          >
+        </div>
+        <div id="image-section">
+          <div id="left">
+            <a href="#" class="no-decoration">
+              <figure>
+                <img
+                  class="block"
+                  src="images/Latest/recipe2.webp"
+                  alt="kitchen-utensils"
+                />
+                <figcaption id="caption">IN THE KITCHEN</figcaption>
+              </figure>
+
+              <span id="bold"
+                >We Tried Over 1,000 New Grocery Products—These Are the 54<br />
+                Every Home Cook Should Buy</span
+              >
+              <span id="para"
+                >For the 2025 edition of Allrecipes' Golden Cart Awards, our
+                editors and Allstars tested every new grocery find that
+                <br />came out in 2024 and figured out what's worth buying right
+                now.</span
+              >
+            </a>
+          </div>
+          <div id="right">
+            <h2>The Latest</h2>
+            <div id="division"></div>
+            <div class="inline">
+              <div class="inline-left">
+                <img
+                  class="image"
+                  src="images/Latest/recipe3.webp"
+                  alt="first-image"
+                />
+              </div>
+              <div class="inline-right">
+                <span class="small"
+                  >HOW TO&nbsp; <span>| &nbsp;53 MINUTES AGO</span></span
+                >
+                <a href="#" class="underline"
+                  ><span class="bold"
+                    >The Best Way to Split a Restaurant<br />
+                    Check,According to Etiquette<br />
+                    Experts</span
+                  ></a
+                >
+              </div>
+            </div>
+            <hr />
+            <div class="inline">
+              <div class="inline-left">
+                <img
+                  class="image"
+                  src="images/Latest/recipe4.webp"
+                  alt="second-image"
+                />
+              </div>
+              <div class="inline-right">
+                <span class="small"
+                  >FAST FOOD&nbsp; <span>| &nbsp;1 HOUR AGO</span></span
+                >
+                <a href="#" class="underline"
+                  ><span class="bold"
+                    >Wendy's Just Released a New <br />
+                    Burger That Has Our Jaws on the <br />
+                    Floor</span
+                  ></a
+                >
+              </div>
+            </div>
+            <hr />
+            <div class="inline">
+              <div class="inline-left">
+                <img
+                  class="image"
+                  src="images/Latest/recipe5.webp"
+                  alt="third-image"
+                />
+              </div>
+              <div class="inline-right">
+                <span class="small"
+                  >FAST FOOD&nbsp; <span>| &nbsp;1 HOUR AGO</span></span
+                >
+                <a href="#" class="underline"
+                  ><span class="bold"
+                    >Wendy's Just Released a New <br />
+                    Burger That Has Our Jaws on the <br />
+                    Floor</span
+                  ></a
+                >
+              </div>
+            </div>
+            <hr />
+            <div class="inline">
+              <div class="inline-left">
+                <img
+                  class="image"
+                  src="images/Latest/recipe6.webp"
+                  alt="fourth-image"
+                />
+              </div>
+              <div class="inline-right">
+                <span class="small"
+                  >FAST FOOD&nbsp; <span>| &nbsp;1 HOUR AGO</span></span
+                >
+                <a href="#" class="underline"
+                  ><span class="bold"
+                    >Wendy's Just Released a New <br />
+                    Burger That Has Our Jaws on the <br />
+                    Floor</span
+                  ></a
+                >
+              </div>
+            </div>
+            <hr />
+            <div class="inline">
+              <div class="inline-left">
+                <img
+                  class="image"
+                  src="images/Latest/recipe7.webp"
+                  alt="fifth-image"
+                />
+              </div>
+              <div class="inline-right">
+                <span class="small"
+                  >FAST FOOD&nbsp; <span>| &nbsp;1 HOUR AGO</span></span
+                >
+                <a href="#" class="underline"
+                  ><span class="bold"
+                    >Wendy's Just Released a New <br />
+                    Burger That Has Our Jaws on the <br />
+                    Floor</span
+                  ></a
+                >
+              </div>
+            </div>
+            <div id="center">
+              <a href="#" id="more-btn">See More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="second-section">
+        <div id="grid-container">
+          <div id="grid">
+            <div id="header-line">
+              <h2 id="grid-header">Trending Now</h2>
+              <hr id="two" />
+            </div>
+            <div class="inline-grid">
+              <div class="grid-left">
+                <img
+                  class="image2"
+                  src="https://www.allrecipes.com/thmb/NDu8Y9oVH5WQM4xQDurG0FObO78=/400x264/filters:no_upscale():max_bytes(150000):strip_icc()/8551629-BangBangPotatoes_DDMFS_45-4x3-e8321c7e22cb4fa698de74aaaab364bd.jpg"
+                  alt="second-image"
+                />
+              </div>
+              <div class="grid-right">
+                <span class="small2"
+                  >HOW TO&nbsp; <span>| &nbsp;53 MINUTES AGO</span></span
+                >
+                <a href="#" class="underline"
+                  ><span class="bold2"
+                    >The Best Way to Split a Restaurant<br />
+                    Check,According to Etiquette<br />
+                    Experts</span
+                  ></a
+                >
+              </div>
+            </div>
+            <div class="inline-grid">
+              <div class="grid-left">
+                <img
+                  class="image2"
+                  src="https://www.allrecipes.com/thmb/cqbRFyzNWQDADxDPDhrm7YYx_wI=/400x264/filters:no_upscale():max_bytes(150000):strip_icc()/9129307_PrincesstrtaSwedishPrincessCake4x3-c6f96752d0ba42769f7b6049a61e31aa.jpg"
+                  alt="second-image"
+                />
+              </div>
+              <div class="grid-right">
+                <span class="small2"
+                  >FAST FOOD&nbsp; <span>| &nbsp;1 HOUR AGO</span></span
+                >
+                <a href="#" class="underline"
+                  ><span class="bold2"
+                    >Wendy's Just Released a New <br />
+                    Burger That Has Our Jaws on the <br />
+                    Floor</span
+                  ></a
+                >
+              </div>
+            </div>
+            <div class="inline-grid">
+              <div class="grid-left">
+                <img
+                  class="image2"
+                  src="https://www.allrecipes.com/thmb/IMwqGNx1iIal_P4wl4YLst8sVdI=/400x264/filters:no_upscale():max_bytes(150000):strip_icc()/9090-chess-pie-ddmfs-hero-4x3-1644-30b5e1fc032f445e8eaa3e1e4a0d5ca5.jpeg"
+                  alt="second-image"
+                />
+              </div>
+              <div class="grid-right">
+                <span class="small2">FOOD NEWS AND TREND</span>
+                <a href="#" class="underline"
+                  ><span class="bold2"
+                    >Wendy's Just Released a New <br />
+                    Burger That Has Our Jaws on the <br />
+                    Floor</span
+                  ></a
+                >
+              </div>
+            </div>
+            <div class="inline-grid">
+              <div class="grid-left">
+                <img
+                  class="image2"
+                  src="https://www.allrecipes.com/thmb/LDZWxEACxXRW3_P4MvPPTO5sQ-w=/400x264/filters:no_upscale():max_bytes(150000):strip_icc()/alr-editor-tools-to-save-time-in-the-kitchen-tout-dc458769e5d2483aa3a4e5350bd458ba.jpg"
+                  alt="second-image"
+                />
+              </div>
+              <div class="grid-right">
+                <span class="small2">BAKING</span>
+                <a href="#" class="underline"
+                  ><span class="bold2"
+                    >The Vintage Swedish Cake Recipe <br />Everyone's Talking
+                    About</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="third-section">
+        <h2 class="salad-header">
+          <a href="#" class="salad-link"
+            >Picnic Salads<i class="fa fa-arrow-right"></i
+          ></a>
+        </h2>
+        <div class="grid2-container">
+          <div class="grid2">
+            <div id="grid2-one">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/K35EZe8jeA8H2wKauXMMl3lwQaI=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2276935-964361e5f2744588a497a697421e099a.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">NO MAYO</figcaption>
+                </figure>
+                <span class="salad-bold">Sweet Restaurant Slaw</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;
+                  <span class="span"> 3,311 Ratings</span></span
+                >
+              </a>
+            </div>
+            <div id="grid2-two">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/qLKZG8XW-GfwinGijKuJxdltM8U=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1282511_Awesome-Pasta-Salad-4x3-1-dbadb96d49594a05b148175acebfc20c.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">
+                    ITALIAN PASTA SALAD RECIPE
+                  </figcaption>
+                </figure>
+                <span class="salad-bold">Awesome Pasta Salad</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;<span class="span">
+                    735 Ratings</span
+                  ></span
+                >
+              </a>
+            </div>
+            <div id="grid2-three">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/AP-_fXflrN50lrMvnvUgIeLLZtg=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/86662_Worlds-Best-Potato-Salad_ddmfs_4x3_0984-c6a9a6eb6b30483b8f8caa731ea77d61.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">
+                    CREAMY POTATO SALAD RECIPES
+                  </figcaption>
+                </figure>
+                <span class="salad-bold">World's Best Potato Salad</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;<span class="span">
+                    880 Ratings</span
+                  ></span
+                >
+              </a>
+            </div>
+            <div id="grid2-four">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/KyiJ1jV65CVWekuItcqoJhhizAE=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/878056_Classic-Macaroni-Salad-4x3-1-2000-ade81d04aca74d889f4dac53bd58432c.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">PASTA SALAD</figcaption>
+                </figure>
+                <span class="salad-bold">Classic Macaroni Salad</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;
+                  <span class="span"> 2,732 Ratings</span></span
+                >
+              </a>
+            </div>
+
+            <div id="grid2-five">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/rrGbmiI4qZt9EMkUpqKSfwyoIg0=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/238423-dads-creamy-cucumber-salad-DDMFS-4x3-36063371e89e463d91c5282ae0873779.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">
+                    CUCUMBER SALAD RECIPES
+                  </figcaption>
+                </figure>
+                <span class="salad-bold">Dad's Creamy Cucumber Salad</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;
+                  <span class="span"> 506 Ratings</span></span
+                >
+              </a>
+            </div>
+            <div id="grid2-six">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/wIIiFpLPKopxd3TirFElWqpZbKA=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/410873_Judys-Strawberry-Pretzel-Salad-4x3-758ada2d0d794541b04d4ff9bad788ee.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">JELL-O SALAD</figcaption>
+                </figure>
+                <span class="salad-bold">Judy's Strawberry Pretzel Salad</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;
+                  <span class="span"> 1,881 Ratings</span></span
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="like">
+          <div id="like-container">
+            <div class="left-like">
+              <h2 id="span-h">
+                <span id="span-like">&#x1f468;&#x200d;&#x1f373;</span> What
+                would you like to cook?
+              </h2>
+              <label class="search2"
+                ><input type="search" placeholder="Search here..." /><i
+                  class="fa fa-search"
+                ></i
+              ></label>
+            </div>
+            <div class="right-like">
+              <h3 id="span-h3">Popular Searches</h3>
+              <div id="like-flex">
+                <a href="#" class="like-list">Chicken</a>
+                <a href="#" class="like-list">Smoothies</a>
+                <a href="#" class="like-list">Banana Bread</a>
+                <a href="#" class="like-list">Lasagna</a>
+                <a href="#" class="like-list">Pancakes</a>
+                <a href="#" class="like-list">Meatloaf</a>
+                <a href="#" class="like-list">Cookies</a>
+                <a href="#" class="like-list">chili</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img
+          class="ad1"
+          src="https://dsp-media.eskimi.com/upload/153551_286464884_2a71e04f761f63b546e02397574ccee1.jpg"
+          alt="advert"
+        />
+      </section>
+      <section id="advert">
+        <div id="first-advert">
+          <div id="home-cook-container">
+            <div id="home-cook-left">
+              <h2 class="home-cook-header">home of the home cook</h2>
+              <p>
+                We know our community (that's you!) is the key ingredient<br />
+                that sets us apart.
+                <span class="home-cook-bold"
+                  ><a href="#" class="home-cook-link"
+                    >LEARN MORE <i class="fa fa-arrow-right arrow"></i></a
+                ></span>
+              </p>
+
+              <div id="home-cook-two">
+                <div id="image1-flex">
+                  <img
+                    src="https://www.allrecipes.com/thmb/TdhuLzwEobVSqPNfRZg3GuHqfD0=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/home-of-the-home-cook-massimo-db06b01b14b9400f80324c3698ae74a0.jpg"
+                    alt="Massimo's profile image"
+                  />
+                </div>
+                <div id="image2-flex">
+                  <h4 id="h4"><a href="#">Serbian Palacinke</a></h4>
+                  <p>
+                    "Light and delicious, and a little fluffier than the average
+                    crepe. The vanilla flavor of these crepes [was] perfect
+                    accompanied by yogurt and fruit."
+                  </p>
+                  <h5>DEB C, MASSACHUSETTS, JOINED 2007</h5>
+                </div>
+              </div>
+
+              <div class="social-media-container">
+                <a href="#" class="media"
+                  ><i class="fab fa-facebook social-media"></i
+                  ><span>3.9M</span></a
+                >
+                <a href="#" class="media"
+                  ><i class="fab fa-instagram social-media"></i
+                  ><span>2.2M</span></a
+                >
+                <a href="#" class="media"
+                  ><i class="fab fa-pinterest social-media"></i
+                  ><span>1.3M</span></a
+                >
+                <a href="#" class="media"
+                  ><i class="fab fa-whatsapp social-media"></i
+                  ><span>678.4K</span></a
+                >
+                <a href="#" class="media"
+                  ><i class="fab fa-youtube social-media"></i
+                  ><span>1.8M</span></a
+                >
+              </div>
+            </div>
+
+            <div id="home-cook-right">
+              <h2 class="home-cook-header">our people</h2>
+              <p>
+                Testing, tasting, editing, and tasting again—our food pros
+                are<br />
+                dedicated to showcasing the best of what you, our home cook<br />
+                heroes, are doing in your kitchens.
+              </p>
+              <a href="#" class="home-cook-link" id="cook-link"
+                >EDITORIAL LEADERSHIP <i class="fa fa-arrow-right arrow"></i
+              ></a>
+
+              <div id="thumb-image">
+                <img
+                  class="thumb1"
+                  src="https://www.allrecipes.com/thmb/SA1m13Rqy5mJahQYM9MheQAaOqs=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Ashley-784a6168bad84a919fefbc4ed7137029.jpeg"
+                  alt="Ashley"
+                />
+                <img
+                  class="thumb1"
+                  src="https://www.allrecipes.com/thmb/nkn8BeZ_Gzv_Vxcyv8uJDYEnXNs=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Diana-8b6d081cf2d046b48ca96aec4f2e83a8.jpeg"
+                  alt="Diana"
+                />
+                <img
+                  class="thumb1"
+                  src="https://www.allrecipes.com/thmb/dz6-tRAZwY3tAlIOKdiLLgAb8g4=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Ariel-bea8e0b59b684ae68cd9f04ab7a3c2d5.jpeg"
+                  alt="Ariel"
+                />
+                <img
+                  class="thumb1"
+                  src="https://www.allrecipes.com/thmb/jt9bfq_LqLwiIBl0oFzD3zZuvZo=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Molly-471690c7a1b1442e9b73b4caa79d93c4.jpeg"
+                  alt="Molly"
+                />
+                <img
+                  class="thumb1"
+                  src="https://www.allrecipes.com/thmb/-B0vzQsdx6kfIshgrf8fi1gj04Y=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Eric-af165ff079d24205b803a80ac4bff6ba.jpeg"
+                  alt="Eric"
+                />
+              </div>
+
+              <div id="image-flex">
+                <div class="image-group">
+                  <h4 class="group-title">CONTRIBUTORS</h4>
+                  <div class="group-images">
+                    <img
+                      class="thumb2"
+                      alt="Nicole"
+                      src="https://www.allrecipes.com/thmb/4brOr7zmr_5pLzgtOvmnehj691M=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Nicole-ca075b77f4cf4840b7c59a41f4ada286.jpeg"
+                    />
+                    <img
+                      class="thumb2"
+                      alt="Chef John"
+                      src="https://www.allrecipes.com/thmb/VADaQodNYQ3WYXe9OGHr4-ztppU=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/AR_AboutUs_Headshots_ChefJohn-748f4367f06a457bb4cd3e87b0612527.jpg"
+                    />
+                    <img
+                      class="thumb2"
+                      alt="Julia"
+                      src="https://www.allrecipes.com/thmb/uXfyfl3OvosrzJwvEdDwx5YkNIc=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Julia-d5ac3a4c440e4c8983830a2fc61980ad.jpeg"
+                    />
+                  </div>
+                </div>
+
+                <div class="image-group">
+                  <h4 class="group-title">TEST KITCHEN</h4>
+                  <div class="group-images">
+                    <img
+                      class="thumb2"
+                      alt="Paul PJ"
+                      src="https://www.allrecipes.com/thmb/ESGURaLvRzfR6EmyeuKczj-tqWA=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/PaulPJ-0b0a068096464f2d897eb44eefa960e2.jpeg"
+                    />
+                    <img
+                      class="thumb2"
+                      alt="Juliana"
+                      src="https://www.allrecipes.com/thmb/p9_qAez4RVd0SA8Z92vTzfB-X4Y=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Juliana-82a92ba76f654d3e95a0e62707322e6e.jpeg"
+                    />
+                    <img
+                      class="thumb2"
+                      alt="Liz"
+                      src="https://www.allrecipes.com/thmb/o-yRBg-6OpvBIwJ9csJ07X8PSfw=/220x220/filters:no_upscale():max_bytes(150000):strip_icc()/Liz-91baaeaecda24183977803d6dc7d7836.jpeg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="recipe-card">
+        <div class="content-overlay">
+          <div class="category">RECIPES</div>
+          <h1 class="title">Take It Outside</h1>
+          <p class="description">
+            Fire up the 'cue and try the best grilled chicken, ribs, and burger
+            recipes, plus marinades, rubs, and dipping sauces.
+          </p>
+        </div>
+      </div>
+      &nbsp;
+      <section id="recipe-list">
+        <div class="section4-div">
+          <div class="image-plan">
+            <div class="image-planning-left">
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/E_iGCAwa_MVxYMLRjJLwCNy8LV4=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6747525-2000-6fce4c63520042b9a73e4d723acfca8d.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">MEAL PLANNING AND MENUS</span>
+                  <span class="plan1 plan2"
+                    >Easy Camping Menu for Your Weekend Getaway</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/XS2zJHiXJ4iV5gg4FO5Ex-ZT6wo=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2466204_OvertheFireScallopedPotatoes4x3-1e2d91e12009443586521f41c045231d.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">CAMPING</span>
+                  <span class="plan1 plan2"
+                    >10 Big-Batch Camping Meals to feed a crowd</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/XJ3ho4VF_efKoh44YfdSBNWRI3A=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1130239-45192e9956f044908fc77685ddaa637b.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">CAMPING</span>
+                  <span class="plan1 plan2"
+                    >15 Easy 5-Ingredients(Or fewer) Camping Recipes</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/rDPrQT1m_v7y0tACTdfimCsQmfU=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/102474000-Campfire-Smores-Photo-by-Meredith-650x465-466132c8e36444a0a334872bc2c2b915.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">CAMPING</span>
+                  <span class="plan1 plan2">20 Campfire Desserts</span>
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/J9Yb7TED2dK1ONbgxhLGg9I22kk=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/image-4-2000-29927026f18f41b0bbe1cf4c78503b6c.jpeg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">CAMPING</span>
+                  <span class="plan1 plan2"
+                    >Breakfasts for the Great Outdoors</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/lUTIFsUSG8FUz27-EKO7RTq_05k=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/245495-antioxidant-trail-mix-buckwheat-queen-e66bbea15fba404b8883edc9e10c0da4.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">CAMPING</span>
+                  <span class="plan1 plan2">High-Energy Camping Snacks</span>
+                </span>
+              </a>
+            </div>
+            <div class="image-planning-right">
+              <img
+                alt="planning image"
+                src="https://tpc.googlesyndication.com/daca_images/simgad/13542125923033425204"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="May-Days">
+        <div id="May-Days-container">
+          <h2 class="salad-header">
+            <a href="#" class="salad-link"
+              >May Days<i class="fa fa-arrow-right"></i
+            ></a>
+          </h2>
+
+          <div id="May-Days-flex">
+            <div id="md-flex-left">
+              <a href="#" class="md-left">
+                <img
+                  alt="new-image"
+                  class="md-image"
+                  src="https://www.allrecipes.com/thmb/aVs8Iv-AnhRJT9nH-bJyuomH7g4=/144x95/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ice-cream-sandwich-cake-3373c4785ee14e95a6236bf1f2853975.jpg"
+                />
+                <span class="md-bold"
+                  >Our 20 Best Potluck Dessert<br />
+                  Recipes of All Time Will Make <br />You a Potluck Legend</span
+                >
+              </a>
+              <a href="#" class="md-left">
+                <img
+                  alt="images"
+                  class="md-image"
+                  src="https://www.allrecipes.com/thmb/d13ikwV1zk4LEJudlUlR-BWEkAc=/144x95/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Party-Pinwheels-by-Allrecipes-Magazine-2000-178ac2e7bd6a4695a7f87497dd73cf9d.jpg"
+                />
+                <span class="md-bold"
+                  >30 Graduation Party Foods For<br />an A+ Celebration</span
+                >
+              </a>
+              <a href="#" class="md-left">
+                <img
+                  alt="images"
+                  class="md-image"
+                  src="https://www.allrecipes.com/thmb/NhoGwu5OcPTSHsuJWbJiIEtur1s=/144x95/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/445156_Vintage-Lemonade-4x3-195c79927325479bb7848ece5cab897f.jpg"
+                />
+                <span class="md-bold"
+                  >28 Refreshing Lemonade<br />
+                  Recipes to Quench Your Thirst</span
+                >
+              </a>
+              <a href="#" class="md-left">
+                <img
+                  alt="images"
+                  class="md-image"
+                  src="https://www.allrecipes.com/thmb/8SpnMdCtlH_w1DZ9G5GcSoyhv3E=/144x95/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Homemade-Macaroni-and-Cheese-by-Anne-Jordan-2000-dbb2f9b68d7c4c7290edf0b42b88ad4a.jpg"
+                />
+                <span class="md-bold"
+                  >Memorial Day Recipes You Can <br />Make in Your 9x13
+                  Dish</span
+                >
+              </a>
+            </div>
+            <div id="md-flex-right">
+              <figure>
+                <img
+                  src="https://www.allrecipes.com/thmb/6zaW8vW6G_gVUtyoqT75MBKOdRs=/771x514/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6768792-1-2000-2663e13fc0424621bdb0eae91b58eda6.jpg"
+                  alt="image"
+                />
+                <figcaption class="salad-small">MEMORIAL DAY</figcaption>
+              </figure>
+              <span id="md-bold-2"
+                >A Day's Worth of Patriotic Recipes for Memorial Day</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        class="ad1"
+        src="https://dsp-media.eskimi.com/upload/153551_286464884_2a71e04f761f63b546e02397574ccee1.jpg"
+        alt="advert"
+      />
+      <section id="third-section">
+        <h2 class="salad-header">
+          <a href="#" class="salad-link"
+            >What We're Saving to MyRecipes<i class="fa fa-arrow-right"></i
+          ></a>
+        </h2>
+        <div class="grid2-container">
+          <div class="grid2">
+            <div id="grid2-one">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/OliHfyXqObwLXrS-wdHo90BClHs=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11733785_Pulled-Chicken-Shawarma-Sandwich_John-Mitzewich_4x3-9e17ec1e5200437ea2501c90d3604706.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">CHICKEN</figcaption>
+                </figure>
+                <span class="salad-bold"
+                  >Chef John's Pulled Chicken Shawarma</span
+                >
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;
+                  <span class="span"> 3,311 Ratings</span></span
+                >
+              </a>
+            </div>
+            <div id="grid2-two">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/SOoMdqxvH9AZOpH_4gexGUcwmaE=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11724806_Coffee-Panna-Cotta_Kim-Shupe_4x3-d21ef15b01b04698a5bd1b23fd65506a.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">DESSERT</figcaption>
+                </figure>
+                <span class="salad-bold">Coffee Panna Cotta</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;<span class="span">
+                    735 Ratings</span
+                  ></span
+                >
+              </a>
+            </div>
+            <div id="grid2-three">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/XPUffZRLVWEGCRC3EfIPqmXe_Os=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11732096_Michigan-Olive-Burger-4x3-cropped-1ac8c3b90fcd4dd0abe0da643dadfdd4.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">
+                    CHEESEBURGER RECIPES
+                  </figcaption>
+                </figure>
+                <span class="salad-bold">Michigan Olive Burger</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;<span class="span">
+                    880 Ratings</span
+                  ></span
+                >
+              </a>
+            </div>
+            <div id="grid2-four">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/AFS8_mzomCWYT2Z5kclcO-iktvw=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11724393-Strawberry-Rhubarb-Crumble-ddmfs-4x3-da2f73ebfa3e4d1e9be91c8d35497bc2.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">
+                    RHUBARB CRISPS AND CRUMBLES RECIPES
+                  </figcaption>
+                </figure>
+                <span class="salad-bold">Strawberry Rhubarb Crumble</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;
+                  <span class="span"> 2,732 Ratings</span></span
+                >
+              </a>
+            </div>
+
+            <div id="grid2-five">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/DGGxXrYpM9xWAQXk7ziBqnsZlZE=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11724134_Hot-Honey-Drumsticks_4x3-6202cef718a440e4ac9d770bc37a9c80.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">
+                    CHICKEN LEG RECIPES
+                  </figcaption>
+                </figure>
+                <span class="salad-bold">Hot Honey Drumsticks</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;
+                  <span class="span"> 506 Ratings</span></span
+                >
+              </a>
+            </div>
+            <div id="grid2-six">
+              <a href="#" class="salad-link">
+                <figure>
+                  <img
+                    src="https://www.allrecipes.com/thmb/Yh6cFTkpmLa08zPVzkWnVAGnlnw=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11720500-Bloody-Mary-Pasta-Salad-ddmfs-3x4-101-fac2a384b0af4126acdcc5899458a82c.jpg"
+                    class="salad-image"
+                  />
+                  <i class="fa fa-heart image-heart"></i>
+                  <figcaption class="salad-small">
+                    TOMATO PASTA SALAD RECIPES
+                  </figcaption>
+                </figure>
+                <span class="salad-bold">Bloody Mary Pasta Salad</span>
+                <span class="salad-light"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;
+                  <span class="span"> 1,881 Ratings</span></span
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        class="ad1"
+        src="https://dsp-media.eskimi.com/upload/153551_286464884_2a71e04f761f63b546e02397574ccee1.jpg"
+        alt="advert"
+      />
+      <div class="recipe-card2">
+        <div class="content-overlay">
+          <div class="category">IN THE KITCHEN</div>
+          <h1 class="title">Our 2025 Golden Cart Awards</h1>
+          <p class="description">
+            We tried more than 1,000 new grocery products- these are the 54
+            every home cook should buy.
+          </p>
+        </div>
+      </div>
+      &nbsp;
+      <section id="recipe-list">
+        <div class="section4-div">
+          <div class="image-plan">
+            <div class="image-planning-left">
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/z5Fl6olXaWJQ6vpiHL-HgMgXJsI=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-GCA25_Site-LandingPage-Breakfast-7c7c5948c30d411e9f62e332b9bc5975.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">IN THE KITCHEN</span>
+                  <span class="plan1 plan2"
+                    >The Best New Breakfast Grocery Finds of 2025, According to
+                    Home Cooks</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/MJhyI2dCnrWN5YJfItaJ9Qo8guU=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-golden-cart-awards-2025-dinner-3x2-11769-c94f765985ac4efc8361b58e737e14f8.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">IN THE KITCHEN</span>
+                  <span class="plan1 plan2"
+                    >The Best New Dinner Products of 2025, Tested by Real Home
+                    Cooks</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/_8XQpHe5OEKpdGFY3zDkwLYVpqo=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-golden-cart-awards-2025-snacks-3x2-11378-eba70fa013f14bb5a47fc7d95f162285.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">IN THE KITCHEN</span>
+                  <span class="plan1 plan2"
+                    >The Best New Snacks We're Adding to Our Carts in 2025</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/uCHB4IkCrXftgkXKbXS_ySUE3Aw=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-golden-cart-awards-2025-pickles-3x2-11190-63b5655a5f98497987eca02561a7ac05.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">IN THE KITCHEN</span>
+                  <span class="plan1 plan2"
+                    >America Is in Its Peak Pickle Era, and It’s Only Getting
+                    Weirder</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/RUKrzeaBqIUNrFabBWVp-HW8As0=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-golden-cart-awards-2025-sweets-3x2-11273-0811e266b67e408b92b0e39b4c628354.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">IN THE KITCHEN</span>
+                  <span class="plan1 plan2"
+                    >The Best New Desserts We Can’t Stop Buying This Year</span
+                  >
+                </span>
+              </a>
+              <hr class="plan" />
+              <a href="#" class="trial">
+                <span class="left-plan">
+                  <img
+                    class="image2"
+                    alt="planning"
+                    src="https://www.allrecipes.com/thmb/n21B8Ua1G5nVce7cmfSSfLVozbc=/248x165/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ar-golden-cart-awards-2025-basics-3x2-11522-fd32204a26d441c89744334393a6609a.jpg"
+                  />
+                </span>
+                <span class="right-plan">
+                  <span class="plan1">IN THE KITCHEN</span>
+                  <span class="plan1 plan2"
+                    >The Best New Grocery Basics That Blew Us Away in 2025</span
+                  >
+                </span>
+              </a>
+            </div>
+            <div class="image-planning-right">
+              <img
+                alt="planning image"
+                src="https://tpc.googlesyndication.com/daca_images/simgad/13542125923033425204"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-container">
+        <div class="footer-content">
+          <!-- Left Column -->
+          <div class="footer-left">
+            <a href="#" class="logo">
+              allrecipes<i class="fa fa-utensil-spoon"></i>
+            </a>
+
+            <a href="#" class="newsletter-btn">NEWSLETTERS</a>
+
+            <div class="social-section">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fas fa-share-square"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Middle Column -->
+          <div class="footer-middle">
+            <ul>
+              <li><a href="#">DINNERS</a></li>
+              <li><a href="#">MEALS</a></li>
+              <li><a href="#">INGREDIENTS</a></li>
+              <li><a href="#">OCCASIONS</a></li>
+              <li><a href="#">CUISINES</a></li>
+              <li><a href="#">KITCHEN TIPS</a></li>
+              <li><a href="#">NEWS</a></li>
+              <li><a href="#">FEATURES</a></li>
+            </ul>
+          </div>
+
+          <!-- Right Column -->
+          <div class="footer-right">
+            <div class="company-links">
+              <a href="#">About Us</a>
+              <a href="#">Editorial Process</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Product Vetting</a>
+              <a href="#">Terms of Service</a>
+              <a href="#">Advertise</a>
+              <a href="#">Careers</a>
+              <a href="#">Contact</a>
+            </div>
+
+            <div class="trust-badge">
+              <img
+                src="https://privacy-policy.truste.com/privacy-seal/seal?rid=7c04f997-515d-4179-a53b-1ccbee37bd62"
+                alt="TRUSTe Certified Privacy"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+img[alt="advert"] {
+  width: 700px;
+  margin: 50px auto;
+}
+.advert-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#May-Days-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+#May-Days-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.md-bold {
+  color: black;
+  font-weight: 700;
+  line-height: 20px;
+}
+a:hover .md-bold {
+  text-decoration: orangered underline;
+}
+#md-bold-2 {
+  font-weight: 1000;
+  font-size: 20px;
+}
+#May-Days {
+  background: #f5f6ea;
+}
+#md-flex-right {
+  align-self: flex-start;
+  margin-bottom: 50px;
+}
+.md-left {
+  margin-bottom: 40px;
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+}
+.salad-header {
+  font-size: 2.25rem;
+}
+.md-image {
+  width: 144px;
+  height: 95px;
+  object-fit: cover;
+}

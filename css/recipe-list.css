@@ -1,0 +1,51 @@
+.section4-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan1 {
+  display: block;
+  font-weight: 800;
+  font-size: 14px;
+  padding-bottom: 5px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.trial {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-decoration: none;
+}
+.image-plan {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.image2 {
+  width: 248px;
+  height: 165px;
+  object-fit: cover;
+}
+img[alt="planning image"] {
+  width: 300px;
+  height: 600px;
+}
+.image-planning-right {
+  align-self: center;
+}
+a:hover .plan2 {
+  text-decoration: orangered underline;
+}
+.plan2 {
+  display: block;
+  font-weight: 800;
+  color: black;
+  font-size: 23px;
+}
+.plan {
+  background: lightgray;
+  height: 2px;
+  margin-bottom: 20px;
+}
