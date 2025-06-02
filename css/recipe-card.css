@@ -26,7 +26,9 @@
   display: flex;
   align-items: center;
 }
-
+.line-break{
+  display:none;
+}
 .recipe-card::before, .recipe-card2::before {
   content: "";
   position: absolute;

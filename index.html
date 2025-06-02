@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="A simple recipe page" />
     <meta name="keywords" content="recipe, food, cooking" />
-    <meta name="author" content="Joseph" />
+    <meta name="author" content="Israel" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/section1.css" />
@@ -165,6 +165,152 @@
           </div>
         </div>
       </nav>
+  <!-- Checkbox for sidebar control -->
+    <input type="checkbox" id="menu-toggle" />
+
+    <!-- Sidebar Overlay with close functionality -->
+    <div class="sidebar-overlay">
+        <label for="menu-toggle" class="sidebar-overlay-close"></label>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-logo">
+                allrecipes<i class="fa fa-spoon"></i>
+            </div>
+            <label for="menu-toggle" class="close-sidebar-label">
+                <span class="sidebar-close">×</span>
+            </label>
+        </div>
+
+        <div class="sidebar-search">
+            <input type="search" placeholder="What are you looking for?" />
+            <button class="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#">DINNERS <i class="fas fa-chevron-right chevron"></i></a></li>
+                <li><a href="#">MEALS <i class="fas fa-chevron-right chevron"></i></a></li>
+                <li><a href="#">INGREDIENTS <i class="fas fa-chevron-right chevron"></i></a></li>
+                <li><a href="#">OCCASIONS <i class="fas fa-chevron-right chevron"></i></a></li>
+                <li><a href="#">CUISINES <i class="fas fa-chevron-right chevron"></i></a></li>
+                <li><a href="#">KITCHEN TIPS <i class="fas fa-chevron-right chevron"></i></a></li>
+                <li><a href="#">NEWS <i class="fas fa-chevron-right chevron"></i></a></li>
+                <li><a href="#">FEATURES <i class="fas fa-chevron-right chevron"></i></a></li>
+                <li><a href="#">ABOUT US <i class="fas fa-chevron-right chevron"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+            <ul>
+                <li>
+                    <a href="#" class="login">
+                        <i class="fa fa-user-circle"></i>Log In
+                    </a>
+                </li>
+                <li><a href="#">Magazine</a></li>
+                <li><a href="#">Newsletters</a></li>
+                <li><a href="#">Sweepstakes</a></li>
+                <li>
+                    <a href="#" class="my-recipes">
+                        <i class="fa fa-heart"></i>
+                        <span id="my">my</span>
+                        <span id="recipes">recipes</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="#" class="magazine-link">GET THE MAGAZINE</a>
+
+            <div class="social-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fas fa-share-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Original nav3 - keeping exactly as provided -->
+    <nav id="nav3" class="navbar">
+        <div id="logo3">
+            <!-- Hamburger button -->
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu">
+                <h1>allrecipes<i class="fa fa-spoon"></i></h1>
+                <label for="search1">Search
+                    <input id="search1" placeholder="What are you looking for?" type="search" />
+                    <i class="fa fa-search"></i>
+                </label>
+                <ul>
+                    <li><a href="#">DINNERS</a></li>
+                    <li><a href="#">MEALS</a></li>
+                    <li><a href="#">INGREDIENTS</a></li>
+                    <li><a href="#">OCCASIONS</a></li>
+                    <li><a href="#">CUISINES</a></li>
+                    <li><a href="#">KITCHEN TIPS</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#" id="list2" class="lists">get the magazine</a></li>
+                </ul>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" class="login">
+                                <i class="fa fa-user-circle"></i>Log In
+                            </a>
+                        </li>
+                        <li>Magazine</li>
+                        <li>Newsletters</li>
+                        <li>Sweepstakes</li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-heart"></i>
+                                <span id="my">my</span>
+                                <span id="recipes">recipes</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="social-section">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fas fa-share-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>allrecipes<i class="fa fa-spoon"></i></h1>
+        <label for="search1">
+            <input id="search1" placeholder="Find a recipe or ingredient" type="search" />
+            <i class="fa fa-search"></i>
+        </label>
+        <div class="split">
+            <a href="#" class="login"><i class="fa fa-user-circle"></i>Log In</a>
+            <div class="divider"></div>
+            <i class="fa fa-heart"></i>
+        </div>
+    </nav>
+</nav>
     </header>
     <main>
       <section id="first-section">
@@ -173,6 +319,7 @@
             >America's
             <span id="yellow"> #1 Trusted Recipe Resource</span> since 1997</a
           >
+          <div class="responsive">
           <a href="#" class="white-underline"
             ><span class="bold-price">51K</span
             ><span class="price-inline">Original Recipes</span></a
@@ -185,6 +332,7 @@
             ><span class="bold-price">67M</span
             ><span class="price-inline">Home Cooks</span></a
           >
+          </div>
         </div>
         <div id="image-section">
           <div id="left">
@@ -726,7 +874,7 @@
           </p>
         </div>
       </div>
-      &nbsp;
+      <br><br class="line-break"><br class="line-break">
       <section id="recipe-list">
         <div class="section4-div">
           <div class="image-plan">
@@ -891,10 +1039,11 @@
                 <img
                   src="https://www.allrecipes.com/thmb/6zaW8vW6G_gVUtyoqT75MBKOdRs=/771x514/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6768792-1-2000-2663e13fc0424621bdb0eae91b58eda6.jpg"
                   alt="image"
+                  class="md-image2"
                 />
                 <figcaption class="salad-small">MEMORIAL DAY</figcaption>
               </figure>
-              <span id="md-bold-2"
+              <span id="md-bold-2 " class="responsive-md"
                 >A Day's Worth of Patriotic Recipes for Memorial Day</span
               >
             </div>
