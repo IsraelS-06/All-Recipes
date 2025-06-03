@@ -48,9 +48,15 @@ input[type="search"]{
 }
 i[class~="fa-search"]{
     color:var(--background-color);
-    padding:12px;
-    background:var(--primary-color)
+    padding:14.5px;
+    background:var(--primary-color);
+   
 }
+#nav3 label[for="search1"] i {
+    right: 0px;
+    position: absolute;
+}
+
 label{
     border:1px solid black;
     border-radius:4px;
@@ -338,6 +344,17 @@ text-decoration: orangered underline;
             visibility: hidden;
             transition: opacity 0.3s ease, visibility 0.3s ease;
         }
+        #search-label {
+            font-size: medium;
+            font-weight: bold;
+            color: #333;
+            margin: 20px
+        }
+        .sidebar-searchs{
+            width: 90%;
+            margin: auto;
+            margin-top: 5px;
+        }
 
         /* Show sidebar and overlay when checkbox is checked */
         #menu-toggle:checked ~ .sidebar {
@@ -358,7 +375,7 @@ text-decoration: orangered underline;
             padding: 20px;
             border-bottom: 1px solid #e0e0e0;
             display: flex;
-            justify-content: space-between;
+            gap: 40px;
             align-items: center;
         }
 
@@ -542,6 +559,10 @@ text-decoration: orangered underline;
             padding: 5px;
             z-index: 1001;
         }
+        #x{
+            border: none;
+            width: 0;
+        }
 
         /* Close sidebar when overlay is clicked */
         .sidebar-overlay-close {
@@ -581,7 +602,7 @@ text-decoration: orangered underline;
             align-items: center;
         }
 
-        #nav3 #search1 {
+        #nav3 .search1 {
             padding: 8px 40px 8px 12px;
             border: 1px solid #ddd;
             border-radius: 4px;
@@ -589,8 +610,6 @@ text-decoration: orangered underline;
         }
 
         #nav3 label[for="search1"] i {
-            position: absolute;
-            right: 12px;
             color: #666;
         }
 

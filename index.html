@@ -34,7 +34,7 @@
             <h1>allrecipes<i class="fa fa-spoon"></i></h1>
             <label for="search1"
               ><input
-                id="search1"
+                class="search1"
                 placeholder="Find a recipe or ingredient"
                 type="search" /><i class="fa fa-search"></i
             ></label>
@@ -176,18 +176,21 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <div class="sidebar-header">
-            <div class="sidebar-logo">
+            <label for="menu-toggle" id="x" class="close-sidebar-label">
+                <span class="sidebar-close">×</span>
+            </label> 
+          <div class="sidebar-logo">
                 allrecipes<i class="fa fa-spoon"></i>
             </div>
-            <label for="menu-toggle" class="close-sidebar-label">
-                <span class="sidebar-close">×</span>
-            </label>
+           
         </div>
-
-        <div class="sidebar-search">
-            <input type="search" placeholder="What are you looking for?" />
-            <button class="search-btn"><i class="fa fa-search"></i></button>
-        </div>
+<p id="search-label">Search</p>
+         <label for="search1" class="sidebar-searchs"
+              ><input
+                id="search1"
+                placeholder="What are you looking for?"
+                type="search" /><i class="fa fa-search"></i
+            ></label>
 
         <nav class="sidebar-nav">
             <ul>
@@ -249,10 +252,12 @@
             </label>
             <div class="menu">
                 <h1>allrecipes<i class="fa fa-spoon"></i></h1>
-                <label for="search1">Search
-                    <input id="search1" placeholder="What are you looking for?" type="search" />
-                    <i class="fa fa-search"></i>
-                </label>
+                <label for="search1"
+              ><input
+                class="search1"
+                placeholder="Find a recipe or ingredient"
+                type="search" /><i class="fa fa-search"></i
+            ></label>
                 <ul>
                     <li><a href="#">DINNERS</a></li>
                     <li><a href="#">MEALS</a></li>
